@@ -1,0 +1,99 @@
+body
+{
+	overflow: scroll;
+}
+div{
+	border:1px solid black;
+}
+
+/*header*/
+.header{
+	position: static;
+	top: 0px;
+	left: 0px;
+	margin: 0px 5%;
+	width:90%;
+}
+.logo{
+	height:170px;
+	width: 400px;
+}
+.login{
+	position:static;
+	bottom:50px;
+	right: 0px;
+	width: 100%;
+	height:30px;
+}
+.menu{
+	height: 50px;
+	width:100%;
+	text-align: center;
+	line-height: 50px;
+}
+.menu div{
+	float: left;
+	width: 24%;
+	height: 100%;
+}
+/*main*/
+.main{
+	margin:0 5%;
+	width:90%;
+}
+
+.ad{
+
+	top:0px;
+	height:500px;
+	width:100%;
+}
+.ad2{
+	margin-top: 10px;
+	height:300px;
+}
+.ad2 div{
+	float: left;
+	height: 100%;
+	width:40%;
+}
+
+.memberdata{
+	width: 100%;
+	height: 600px;
+}
+
+.product_main{
+	position: relative;
+	height: 1000px;
+	left: 15%;
+	width: 70%
+}
+
+.product_menu{
+	position: fixed;
+	left: 7%;
+	height: 200px;
+	width: 10%;
+}
+
+.product_main div div{
+	float: left;
+	position: static;
+	height: 300px;
+	width: 25%;
+	margin:3%;
+}
+.product_main div div img{
+
+}
+.product_main div{
+	width: 100%;
+	height: 75%;
+}
+/*footer*/
+div .footer{
+	margin-top: 5px;
+	width:100%;
+	height:150px;
+}
